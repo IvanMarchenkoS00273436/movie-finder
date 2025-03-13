@@ -11,7 +11,7 @@ import { IOMDBResponse2 } from '../../omdbresponse2';
 })
 
 export class OmdbApiService {
-  private _siteURL = "http://www.omdbapi.com/";
+  private _siteURL = "https://www.omdbapi.com/";
   private _key ="?apikey=cae631ab&t=";
   private _key2 = "?apikey=cae631ab&s=";
 
